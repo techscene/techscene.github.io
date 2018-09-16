@@ -1,0 +1,45 @@
+h1, h2 {
+    font-family: Courier, monospace;
+}
+
+h1, h2, p {
+    max-width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+p, footer {
+    font-family: monospace;
+}
+
+p {
+    font-size: 1.25em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    padding: 50px 20px 20px;
+}
+
+.subheader {
+    font-size: 0.7em;
+    display: block;
+}
+
+@media (min-width: 700px) {
+    footer {
+        padding-left: 10%;
+    }
+}
