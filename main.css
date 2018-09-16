@@ -43,3 +43,7 @@ footer {
         padding-left: 10%;
     }
 }
+
+.brand-name {
+    font-family: Courier, monospace;
+}
