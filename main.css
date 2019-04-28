@@ -1,33 +1,142 @@
+@font-face {
+    font-family: Karla;
+    src: url("assets/fonts/Karla/Karla-Regular.ttf");
+}
+
+@font-face {
+    font-family: Karla-Bold;
+    src: url("assets/fonts/Karla/Karla-Bold.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("assets/fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+:root {
+    --heading-font: Karla;
+    --heading-bold-font: Karla-Bold;
+    --text-font: Montserrat-Light;
+    --text-color: #111;
+    --text-color-light: #eee;
+    --text-font-size: 1rem;
+    --text-line-height: 1.4rem;
+    --primary-color: #d60000;
+    --secondary-color: rgba(109, 0, 0, 0.4);
+    --light-gray: #8080801c;
+    --dark-gray: 808080;
+    --padding: 8px;
+    --margin: 8px;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
-  font-family: Helvetica, sans-serif;
+    font-family: var(--text-font), sans-serif;
 }
 
-main > section {
-  display: flex;
-  flex-wrap: nowrap;
-  align-content: stretch;
-  width: 100%;
-  min-height: 40vh;
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font), Helvetica, sans-serif;
 }
 
-main > section > div {
-  width: 50%;
-  box-sizing: border-box;
+h1 {
+    font-size: 2.8rem;
+    font-family: var(--heading-bold-font);
 }
 
-main > section > div:firstoftype() {
-  background: #eee;
+img {
+    width: 100%;
+    height: auto;
 }
 
-main section h2,
-main section h3 {
-  font-weight: 500;
+p {
+    font-size: var(--text-font);
+    line-height: var(--text-line-height);
 }
 
-main section h2 {
-  margin-block-end: 0.25em;
+.header {
+    background-color: var(--light-gray);
+    padding: var(--padding) calc(var(--padding) * 3) var(--padding);
+    border-bottom: 1px solid var(--dark-gray);
 }
 
-main section h3 {
-  margin-block-start: 0.25em;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    width: 100%;
+    min-height: 40vh;
+}
+
+.row.two {
+    flex-direction: column-reverse;
+}
+
+.row.three {
+    background-color: var(--light-gray);
+    text-align: center;
+}
+
+
+.cell {
+    width: 100%;
+    box-sizing: border-box;
+    padding: calc(var(--padding) * 3);
+}
+
+.cell.img {
+    padding: 0;
+}
+
+@media (min-width: 600px) {
+    .row {
+        flex-wrap: nowrap;
+    }
+
+    .row.two {
+        flex-direction: row;
+    }
+
+    .cell {
+        width: 50%;
+    }
+
+    .cell.cell-full {
+        width: 100%;
+    }
+}
+
+.row h2,
+.row h3 {
+    font-weight: 500;
+}
+
+.row h2 {
+    margin-block-end: 0.25rem;
+}
+
+.row h3 {
+    margin-block-start: 0.25rem;
+    margin-bottom: var(--margin);
+}
+
+.contact-email {
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+.footer {
+    background-color: var(--dark-gray);
+    padding: calc(var(--padding) * 2);
+    color: var(--text-color-light)
+}
+
+.footer a {
+    color: var(--text-color-light)
 }
