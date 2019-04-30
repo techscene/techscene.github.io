@@ -17,14 +17,14 @@
     --heading-font: Karla;
     --heading-bold-font: Karla-Bold;
     --text-font: Montserrat-Light;
-    --text-color: #111;
-    --text-color-light: #eee;
+    --text-color: #161817;
+    --text-color-light: #efefef;
     --text-font-size: 1rem;
     --text-line-height: 1.4rem;
-    --primary-color: #d60000;
-    --secondary-color: rgba(109, 0, 0, 0.4);
-    --light-gray: #8080801c;
-    --dark-gray: 808080;
+    --primary-color: #1b5a57;
+    --secondary-color: #a9b6be;
+    --light-gray: #efefef;
+    --dark-gray: #6d767f;
     --padding: 8px;
     --margin: 8px;
     font-size: 16px;
@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 2.8rem;
     font-family: var(--heading-bold-font);
+    color: var(--primary-color);
 }
 
 img {
@@ -60,10 +61,18 @@ p {
     line-height: var(--text-line-height);
 }
 
+a {
+    color: var(--primary-color)
+}
+
 .header {
     background-color: var(--light-gray);
     padding: var(--padding) calc(var(--padding) * 3) var(--padding);
-    border-bottom: 1px solid var(--dark-gray);
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.logo {
+    letter-spacing: -2pt;
 }
 
 .row {
