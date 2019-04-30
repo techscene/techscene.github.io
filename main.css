@@ -62,13 +62,16 @@ p {
 }
 
 a {
-    color: var(--primary-color)
+    color: var(--primary-color);
+}
+
+a:visited {
+    color: var(--secondary-color);
 }
 
 .header {
     background-color: var(--light-gray);
     padding: var(--padding) calc(var(--padding) * 3) var(--padding);
-    border-bottom: 1px solid var(--secondary-color);
 }
 
 .logo {
@@ -131,6 +134,7 @@ a {
 }
 
 .row h3 {
+    color: var(--dark-gray);
     margin-block-start: 0.25rem;
     margin-bottom: var(--margin);
 }
