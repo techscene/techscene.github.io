@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 400 300.98001"
+   xml:space="preserve"
+   id="svg132"
+   sodipodi:docname="techscene-symbol__white_small.svg"
+   width="400"
+   height="300.98001"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs136" /><sodipodi:namedview
+   id="namedview134"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.38039216"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   showguides="false"
+   inkscape:zoom="0.64895833"
+   inkscape:cx="1389.9197"
+   inkscape:cy="765.07223"
+   inkscape:window-width="1924"
+   inkscape:window-height="1151"
+   inkscape:window-x="1660"
+   inkscape:window-y="78"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg132" />
+<style
+   type="text/css"
+   id="style120">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#85EAB0;}
+	.st2{fill:#86ECB2;}
+</style>
+<g
+   id="Layer_2">
+	<rect
+   width="1920"
+   height="1080"
+   fill="none"
+   id="rect122"
+   x="0"
+   y="0" />
+</g>
+<g
+   id="Layer_1"
+   transform="translate(-760,-389.51)">
+	<g
+   id="g129">
+		<path
+   class="st0"
+   d="m 760,389.51 v 100.33 h 147.7 v 200.65 h 104.6 C 1012.3,521.47 939.54,389.51 760,389.51 Z"
+   id="path125" />
+		<rect
+   x="1012.3"
+   y="389.51001"
+   class="st2"
+   width="147.7"
+   height="100.33"
+   id="rect127" />
+	</g>
+</g>
+</svg>
